@@ -1,0 +1,15 @@
+node {
+   def mvnHome
+   stage('Preparation') { // for display purposes
+    
+    echo ' This is Preparation'
+   }
+   stage('Build') {
+      
+      echo "This is Build "
+      }
+   
+   stage('Results') {
+      echo 'This is Results'
+   }
+}
